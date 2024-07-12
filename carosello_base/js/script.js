@@ -51,3 +51,6 @@ images.forEach((elem) => {
 
 // Tramite querySelector vado ad inserire tutto quello che c'è nella variabile di appoggio nel contenitore del carosello
 document.querySelector('.carousel-inner').innerHTML = itemContent
+
+// Al primo oggetto del carosello, tramite querySelector, aggiungo la classe active per renderlo l'oggetto attivo primario del carosello.
+document.querySelector('.carousel-item').classList.add('active')
