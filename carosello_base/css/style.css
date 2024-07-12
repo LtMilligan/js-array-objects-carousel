@@ -4,3 +4,19 @@
     box-sizing: border-box;
 }
 
+#carosello-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100svh;
+}
+
+#carosello {
+    width: 900px;
+    height: 400px;
+    background-color: red;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
