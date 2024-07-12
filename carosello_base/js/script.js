@@ -47,3 +47,7 @@ images.forEach((elem) => {
         </div>
     </div>`
 })
+
+
+// Tramite querySelector vado ad inserire tutto quello che c'è nella variabile di appoggio nel contenitore del carosello
+document.querySelector('.carousel-inner').innerHTML = itemContent
