@@ -22,3 +22,14 @@ const images = [
     }
 ];
 
+
+// -----Elemento base da innestare nell'index-----
+/* <div class="carousel-item h-100">
+        <img src="../${elem.image}" class="d-block w-100 h-100 object-fit-cover" alt="${elem.title}">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>${elem.title}</h5>
+            <p>${elem.text}</p>
+        </div>
+    </div> */
+
+
